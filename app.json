@@ -27,22 +27,22 @@
         "value": "",
         "required": true
       },
-      "MONGO_DB_URI": {
+      "DATABASE_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
         "value": "",
         "required": true
       },
-      "OWNER_ID": {
+      "LOG_CHANNEL": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
         "value": "",
         "required": true
       },
-      "STRING_SESSION": {
+      "FORWARD_FROM_CHAT_ID": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
       },
-      "HEROKU_API_KEY": {
+      "SUPPORT_CHAT": {
         "description": "Your Heroku account's API key",
         "value": "",
         "required": false
@@ -51,11 +51,6 @@
         "description": "Your heroku app/bot's name",
         "value": "",
         "required": false
-      },
-      "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
-        "required": true
       }
     },
     "buildpacks": [
